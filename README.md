@@ -21,6 +21,7 @@ There are two scripts here:
 ----------------
 Make sure your files are in the following formats and have the following suffixes
 A. fastq format -- .fastq or .fastq.gz
+
 B. one-column sequence format -- .txt
 
 If your files do not have these suffixes but they are the correct formats, you can change them by using the move (mv) command in the command line.
@@ -48,11 +49,14 @@ Run the following command on the command line to initiate the script
 
 The script will ask you for your file. Your files must be in the formats listed
 A. fastq format -- .fastq or .fastq.gz 
+
 B. one-column sequence format -- .txt
 
 You can practice running this script with the sample files included
 SAMPLE.fastq
+
 SAMPLE.txt
+
 ---------------- 
 |    Results     | 
 ----------------  
@@ -108,9 +112,13 @@ File_list.txt
 
 OUTPUT
 File1.fa
+
 File2.fa
+
 File3.fa
+
 File4.fa
+
 File5.fa
 
 Now you're good to go!!!
