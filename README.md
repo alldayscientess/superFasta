@@ -28,6 +28,7 @@ If your files do not have these suffixes but they are the correct formats, you c
 EXAMPLE
 
 mv file.SUFFIX file.txt  [RETURN]
+
 mv file.SUFFIX file.fastq [RETURN]
 
 Run the following command on the command line to make the script executable
