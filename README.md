@@ -10,7 +10,7 @@ I got tired of doing this independently every time I wanted to make a fasta file
 You can email me if you have any questions on how to use the tool! tess.cherlin@students.jefferson.edu
 
 There are two scripts here:
-1. superFasta.sh -- this reads in a individial file (fastq or single-column sequence) and turns them into a fasta file.
+1. superFasta.sh -- this reads in an individial file (fastq or single-column sequence) and turns them into a fasta file.
 2. superFasta2.sh -- this reads in a list file which contains a list of fastq files or a list of single-column sequence files and turns them into fasta files.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
