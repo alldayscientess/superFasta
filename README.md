@@ -20,6 +20,7 @@ There are two scripts here:
 |Before you begin|
 ----------------
 Make sure your files are in the following formats and have the following suffixes
+
 A. fastq format -- .fastq or .fastq.gz
 
 B. one-column sequence format -- .txt
@@ -48,6 +49,7 @@ Run the following command on the command line to initiate the script
 ./realFasta2.sh [RETURN]
 
 The script will ask you for your file. Your files must be in the formats listed
+
 A. fastq format -- .fastq or .fastq.gz 
 
 B. one-column sequence format -- .txt
@@ -63,9 +65,11 @@ SAMPLE.txt
 If all runs correctly your fasta file should be in the same directory as this script
 
 INPUT
+
 file.txt
 
 OUTPUT
+
 file.fa
 
 Now you're good to go!!!
@@ -75,7 +79,7 @@ Now you're good to go!!!
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------
 |Before you begin|
-    -----------------
+ -----------------
 Make sure you have a list of files all in the same file format (fastq or one-column sequence files)
 
 If you need to make a list of files you can run one of the two commands below.
@@ -88,7 +92,7 @@ ls File*.txt > File_list.txt [RETURN]
 
 ^the * above is a wild-card flag so you can include all the files you have that have that prefix. You can play around with where you put the *
 
-----------------
+ ----------------
 |   Run script   |
  ----------------
 Run the following command on the command line to make the script executable
@@ -102,7 +106,7 @@ Run the following command on the command line to initiate the script
 The script will ask you for your list file (in .txt format).
 The script read through your file list and create a fasta file for each. 
 
----------------- 
+ ---------------- 
 |    Results     |      
 ---------------- 
 If all runs correctly your fasta files should be in the same directory as this script 
